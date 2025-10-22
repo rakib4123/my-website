@@ -1,0 +1,19 @@
+/* Import a professional font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --admin-bg: #F3F4F6; /* Light gray background */
+    --admin-surface: #FFFFFF;
+    --admin-sidebar-bg: #1F2937; /* Dark sidebar for contrast */
+    --admin-primary: #3B82F6;
+    --admin-text-primary: #111827;
+    --admin-text-secondary: #6B7280;
+    --admin-border: #E5E7EB;
+}
+body { font-family: 'Inter', sans-serif; background-color: var(--admin-bg); color: var(--admin-text-primary); }
+.btn { display: inline-block; padding: 10px 24px; border-radius: 8px; font-weight: 600; text-align: center; transition: all 0.2s ease-in-out; cursor: pointer; border: none; }
+.btn-primary { background-color: var(--admin-primary); color: #fff; }
+.btn-primary:hover { background-color: #2563EB; }
+.card { background-color: var(--admin-surface); border-radius: 12px; border: 1px solid var(--admin-border); overflow: hidden; }
+.form-input { display: block; width: 100%; padding: 10px 14px; background-color: #fff; border: 1px solid #D1D5DB; color: var(--admin-text-primary); border-radius: 8px; transition: all 0.2s ease; }
+.form-input:focus { outline: none; border-color: var(--admin-primary); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25); }

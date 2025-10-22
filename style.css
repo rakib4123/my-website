@@ -1,0 +1,33 @@
+/* Import a clean, modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- CSS Variables for a Bright & Modern Theme --- */
+:root {
+    --color-background: #F9FAFB;
+    --color-surface: #FFFFFF;
+    --color-primary: #3B82F6;
+    --color-text-primary: #1F2937;
+    --color-text-secondary: #6B7280;
+    --color-border: #E5E7EB;
+}
+body { font-family: 'Inter', sans-serif; background-color: var(--color-background); color: var(--color-text-primary); }
+.btn { display: inline-block; padding: 12px 28px; border-radius: 8px; font-weight: 600; text-align: center; transition: all 0.2s ease-in-out; cursor: pointer; border: none; }
+.btn-primary { background-color: var(--color-primary); color: #fff; }
+.card { background-color: var(--color-surface); border-radius: 12px; border: 1px solid var(--color-border); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.form-input { display: block; width: 100%; padding: 12px 16px; background-color: #fff; border: 1px solid #D1D5DB; color: var(--color-text-primary); border-radius: 8px; transition: all 0.2s ease; }
+.animate-on-scroll { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+.animate-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+.popup-content { color: var(--color-text-secondary); line-height: 1.6; }
+.popup-content h1, .popup-content h2, .popup-content h3 { color: var(--color-text-primary); font-weight: 700; margin-bottom: 0.5em; }
+.popup-content p { margin-bottom: 1em; }
+.popup-content a { color: var(--color-primary); text-decoration: underline; }
+.popup-content img, .popup-content video { max-width: 100%; height: auto; border-radius: 8px; margin-top: 1em; margin-bottom: 1em; }
+
+/* --- Custom Popup Size (UPDATED) --- */
+.popup-size {
+    width: 900px;  /* Increased width */
+    height: 600px; /* Changed to be more rectangular */
+    max-width: 95vw; /* Ensures it's not wider than the screen */
+    max-height: 95vh; /* Ensures it's not taller than the screen */
+    overflow-y: auto; /* Adds a scrollbar if content is too long */
+}

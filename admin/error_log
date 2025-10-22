@@ -1,0 +1,22 @@
+[05-Oct-2025 11:31:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/electrob/public_html/admin/header.php:10) in /home/electrob/public_html/admin/add_edit_slide.php on line 46
+[05-Oct-2025 11:45:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/electrob/public_html/admin/header.php:10) in /home/electrob/public_html/admin/add_product.php on line 44
+[05-Oct-2025 11:47:15 UTC] PHP Warning:  Undefined variable $product_id in /home/electrob/public_html/admin/edit_product.php on line 8
+[06-Oct-2025 14:15:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/electrob/public_html/admin/header.php:10) in /home/electrob/public_html/admin/add_edit_popup_slide.php on line 61
+[06-Oct-2025 14:17:44 UTC] PHP Warning:  Undefined array key "type" in /home/electrob/public_html/admin/add_edit_popup_slide.php on line 36
+[06-Oct-2025 14:17:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'type' cannot be null in /home/electrob/public_html/admin/add_edit_popup_slide.php:68
+Stack trace:
+#0 /home/electrob/public_html/admin/add_edit_popup_slide.php(68): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/electrob/public_html/admin/add_edit_popup_slide.php on line 68
+[06-Oct-2025 14:18:44 UTC] PHP Warning:  Undefined array key "heading" in /home/electrob/public_html/admin/add_edit_slide.php on line 40
+[06-Oct-2025 14:18:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/electrob/public_html/admin/add_edit_slide.php on line 40
+[06-Oct-2025 14:18:44 UTC] PHP Warning:  Undefined array key "subheading" in /home/electrob/public_html/admin/add_edit_slide.php on line 41
+[06-Oct-2025 14:18:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/electrob/public_html/admin/add_edit_slide.php on line 41
+[06-Oct-2025 14:18:44 UTC] PHP Warning:  Undefined array key "button_text" in /home/electrob/public_html/admin/add_edit_slide.php on line 42
+[06-Oct-2025 14:18:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/electrob/public_html/admin/add_edit_slide.php on line 42
+[06-Oct-2025 14:18:44 UTC] PHP Warning:  Undefined array key "button_link" in /home/electrob/public_html/admin/add_edit_slide.php on line 43
+[06-Oct-2025 14:18:44 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/electrob/public_html/admin/add_edit_slide.php on line 43
+[06-Oct-2025 14:18:44 UTC] PHP Warning:  Undefined array key "sort_order" in /home/electrob/public_html/admin/add_edit_slide.php on line 45
+[06-Oct-2025 14:18:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/electrob/public_html/admin/add_edit_slide.php:40) in /home/electrob/public_html/admin/add_edit_slide.php on line 72
+[06-Oct-2025 14:37:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/electrob/public_html/admin/header.php:10) in /home/electrob/public_html/admin/add_edit_popup_slide.php on line 58
+[06-Oct-2025 14:40:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/electrob/public_html/admin/header.php:10) in /home/electrob/public_html/admin/add_edit_popup_slide.php on line 58
