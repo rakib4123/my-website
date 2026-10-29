@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->bind_param("sss", $username, $email, $hashed_password);
             
             if ($stmt->execute()) {
-                // UPDATED: Redirect to login page with a success message flag
+                // Redirect to login page with a success message flag
                 header("location: login.php?registration=success");
                 exit();
             }

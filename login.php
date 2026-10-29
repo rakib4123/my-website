@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;                            
                             
-                            // UPDATED: Redirect user to home page instead of account page
+                            // Redirect user to home page
                             header("location: index.php");
                             exit();
                         } else {

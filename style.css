@@ -25,8 +25,8 @@ body { font-family: 'Inter', sans-serif; background-color: var(--color-backgroun
 
 /* --- Custom Popup Size (UPDATED) --- */
 .popup-size {
-    width: 900px;  /* Increased width */
-    height: 600px; /* Changed to be more rectangular */
+    width: 900px;
+    height: 600px;
     max-width: 95vw; /* Ensures it's not wider than the screen */
     max-height: 95vh; /* Ensures it's not taller than the screen */
     overflow-y: auto; /* Adds a scrollbar if content is too long */
